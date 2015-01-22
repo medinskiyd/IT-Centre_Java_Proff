@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/proff13/!svn/ver/205/trunk/proff13_examples/src/main/java/weekend3/dantist/dao
+END
+GenericDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/proff13/!svn/ver/205/trunk/proff13_examples/src/main/java/weekend3/dantist/dao/GenericDao.java
+END
+GenericDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/proff13/!svn/ver/205/trunk/proff13_examples/src/main/java/weekend3/dantist/dao/GenericDaoImpl.java
+END
+ClientHibernateDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/proff13/!svn/ver/205/trunk/proff13_examples/src/main/java/weekend3/dantist/dao/ClientHibernateDaoImpl.java
+END
+UserHibernateDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/proff13/!svn/ver/205/trunk/proff13_examples/src/main/java/weekend3/dantist/dao/UserHibernateDaoImpl.java
+END
+ClientDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/proff13/!svn/ver/205/trunk/proff13_examples/src/main/java/weekend3/dantist/dao/ClientDao.java
+END
+UserDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/proff13/!svn/ver/205/trunk/proff13_examples/src/main/java/weekend3/dantist/dao/UserDao.java
+END

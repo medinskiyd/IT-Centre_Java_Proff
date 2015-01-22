@@ -1,0 +1,29 @@
+Задание 1.
+ * Написать класс аутентификации пользователя по логину и паролю, с методами:
+    - boolean authenticate() - ввод логина и пароля + проверка
+    - boolean authenticate(String login, String pass)
+    - add(String login, String pass)
+    - remove(String login)
+
+Задание 2.
+ * Написать класс для вычисления частоты слов в тексте с методами:
+ - String setTextFromConsole()
+ - String setTextFromFile(String fileName)
+ - String generateRandomText(int textLength)
+ - Set<String> getWordsByFrequency(int frequency)
+ - Set<String> getWordsByFrequencyLessThan(int frequency)
+ - Set<String> getWordsByFrequencyMoreThan(int frequency)
+ - void printAcs() - вывести все слова + частота по возрастанию частоты
+ - void printDesc() - вывести все слова + частота по убыванию частоты
+
+Задание 3.
+ *  Написать класс представляющий парковку. С методами:
+ - int park(Car cat) - поместить машину на парковку, возвращает номер паркоместа
+ - Car leave(int placeNumber) - удалить машину с парковки по номеру парокместа, возвращает удаляемую машину
+ Методы выбрасывают ислключения IndexOutOfBoundsException и ParkFullException
+
+ Добавить к классу парковка возможность размещать грузовики (наследник машины и помещается на особом, расширенном паркоместе)
+
+ (Используем HashMap (номер места это ключ, машина - эначение)).
+
+Задание 4.

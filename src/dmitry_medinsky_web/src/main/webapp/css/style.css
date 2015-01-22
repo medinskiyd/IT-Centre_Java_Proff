@@ -1,0 +1,15 @@
+#project {
+    font-size:20px;
+}
+#project input {
+    font-size: 16px;
+    padding: 5px;
+    width: 300px;
+    height: auto;
+}
+#project small {
+    font-size: 12px;
+}
+#form-submit {
+    cursor: pointer;
+}

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/proff13/!svn/ver/351/trunk/proff13_examples/src/main/resources
+END
+hibernate.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/proff13/!svn/ver/314/trunk/proff13_examples/src/main/resources/hibernate.cfg.xml
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/proff13/!svn/ver/164/trunk/proff13_examples/src/main/resources/log4j.properties
+END
+ojdbc14.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/proff13/!svn/ver/139/trunk/proff13_examples/src/main/resources/ojdbc14.jar
+END

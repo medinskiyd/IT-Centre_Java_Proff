@@ -1,0 +1,81 @@
+10
+
+dir
+397
+https://subversion.assembla.com/svn/proff13/trunk/dmitry_medinsky/src/main/java/week4/HomeWork
+https://subversion.assembla.com/svn/proff13
+
+
+
+2014-02-12T19:49:14.902144Z
+137
+dmitry_medinsky
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b3ff1233-016a-4b25-a549-befdd0438e55
+
+
+
+
+
+
+0
+
+AsynchronousChat
+dir
+
+CharServer
+dir
+
+FibonacciNumber
+dir
+
+SumOfTheSeries
+dir
+
+main.java
+file
+
+
+
+
+2014-02-08T13:23:56.982000Z
+ead2b57b0d8e2354e8b173cd00663fd4
+2014-02-12T19:49:14.902144Z
+137
+dmitry_medinsky
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+104
+

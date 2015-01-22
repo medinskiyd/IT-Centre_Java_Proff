@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:amq="http://activemq.apache.org/schema/core"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context
+                           http://www.springframework.org/schema/context/spring-context.xsd
+                           http://activemq.apache.org/schema/core
+                           http://activemq.apache.org/schema/core/activemq-core.xsd">
+
+    <context:annotation-config />
+    <context:component-scan base-package="week9.ClientServer.server"/>
+
+    <!--Брокер -->
+    <amq:broker id = "broker" useJmx="false" persistent="false">
+        <amq:transportConnectors>
+        <amq:transportConnector uri = "tcp://localhost:61616" />
+        </amq:transportConnectors>
+    </amq:broker>
+    <!-- A JMS connection factory for ActiveMQ -->
+    <bean id="connectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory"
+        p:brokerURL="tcp://localhost:61616" />
+
+    <!--<amq:topic id="messages" physicalName="MESSAGES" />-->
+    <!--<amq:queue id="queue" physicalName="queue" />-->
+    <bean id="queueIn" class="org.apache.activemq.command.ActiveMQQueue">
+        <constructor-arg value="queue1"/>
+    </bean>
+
+    <bean id="queueOut" class="org.apache.activemq.command.ActiveMQQueue">
+        <constructor-arg value="queue"/>
+    </bean>
+
+
+    <bean id="listenerContainer" class="org.springframework.jms.listener.DefaultMessageListenerContainer">
+        <property name="connectionFactory" ref="connectionFactory"/>
+        <property name="destination" ref="queueIn"/>
+        <property name="messageListener" ref="messageListener" />
+    </bean>
+
+    <bean id="jmsProducerTemplate" class="org.springframework.jms.core.JmsTemplate"
+          p:connectionFactory-ref="connectionFactory"
+          p:defaultDestination-ref="queueOut" />
+</beans>

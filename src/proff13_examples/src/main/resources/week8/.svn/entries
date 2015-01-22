@@ -1,0 +1,74 @@
+10
+
+dir
+397
+https://subversion.assembla.com/svn/proff13/trunk/proff13_examples/src/main/resources/week8
+https://subversion.assembla.com/svn/proff13
+
+
+
+2014-03-23T14:57:25.581546Z
+351
+it-centre
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b3ff1233-016a-4b25-a549-befdd0438e55
+
+calc
+dir
+
+context.xml
+file
+
+
+
+
+2014-03-24T18:20:26.467000Z
+1d8589efb82ad2262acd371ca9bfe1ce
+2014-03-21T19:21:15.246103Z
+314
+Vadim_Zaporozhets
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+633
+
+dentist
+dir
+
+hibernate
+dir
+
+properties
+dir
+

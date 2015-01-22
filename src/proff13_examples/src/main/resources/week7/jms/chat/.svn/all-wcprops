@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/proff13/!svn/ver/301/trunk/proff13_examples/src/main/resources/week7/jms/chat
+END
+serverContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/proff13/!svn/ver/301/trunk/proff13_examples/src/main/resources/week7/jms/chat/serverContext.xml
+END
+clientContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/proff13/!svn/ver/301/trunk/proff13_examples/src/main/resources/week7/jms/chat/clientContext.xml
+END

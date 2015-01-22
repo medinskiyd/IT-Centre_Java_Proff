@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/proff13/!svn/ver/205/trunk/proff13_examples/src/main/java/weekend3/dao
+END
+RegionDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/proff13/!svn/ver/205/trunk/proff13_examples/src/main/java/weekend3/dao/RegionDao.java
+END
+Region.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/proff13/!svn/ver/205/trunk/proff13_examples/src/main/java/weekend3/dao/Region.java
+END
+RegionHibernateDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/proff13/!svn/ver/205/trunk/proff13_examples/src/main/java/weekend3/dao/RegionHibernateDaoImpl.java
+END

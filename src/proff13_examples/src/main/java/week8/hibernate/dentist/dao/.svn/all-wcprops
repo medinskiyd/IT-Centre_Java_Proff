@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/proff13/!svn/ver/237/trunk/proff13_examples/src/main/java/week8/hibernate/dentist/dao
+END
+ClientHibernateDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/proff13/!svn/ver/237/trunk/proff13_examples/src/main/java/week8/hibernate/dentist/dao/ClientHibernateDaoImpl.java
+END
+ClientDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/proff13/!svn/ver/237/trunk/proff13_examples/src/main/java/week8/hibernate/dentist/dao/ClientDao.java
+END
+DoctorDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/proff13/!svn/ver/237/trunk/proff13_examples/src/main/java/week8/hibernate/dentist/dao/DoctorDaoImpl.java
+END
+DoctorDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/proff13/!svn/ver/237/trunk/proff13_examples/src/main/java/week8/hibernate/dentist/dao/DoctorDao.java
+END

@@ -1,0 +1,32 @@
+package week6.hibernate;
+
+import org.apache.log4j.Logger;
+
+
+public class ConfigEx {
+    private static Logger log = Logger.getLogger(ConfigEx.class);
+
+    public static void main(String[] args) {
+//        Configuration configuration = new AnnotationConfiguration();
+//        SessionFactory factory = configuration.configure().buildSessionFactory();
+//        log.info("Reference to SessionFactory " + factory);
+//
+//        Session session = null;
+//        Region region = new Region(5L, "ukr");
+//        try {
+//            session = factory.openSession();
+//            session.beginTransaction();
+//            session.save(region);
+//
+//            session.getTransaction().commit();
+//        } catch (HibernateException e) {
+//            log.error("Open session failed", e);
+//            session.getTransaction().rollback();
+//        } finally {
+//            if(session != null) {
+//                session.close();
+//            }
+//        }
+//        log.info(session);
+    }
+}

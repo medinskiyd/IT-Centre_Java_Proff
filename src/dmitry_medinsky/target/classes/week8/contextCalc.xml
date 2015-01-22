@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    разобраться
+    <!--&lt;!&ndash; BEANS &ndash;&gt;-->
+    <!--<bean id="director1" class="week8.context.Man">-->
+        <!--&lt;!&ndash; collaborators and configuration for this bean go here &ndash;&gt;-->
+        <!--&lt;!&ndash; Инжектируем через сетер &ndash;&gt;-->
+        <!--<property name="name" value="Erema"/>-->
+        <!--<property name="age" value="20"/>-->
+    <!--</bean>-->
+
+    <!--<bean id="firm1" class="week8.context.Firm">-->
+        <!--&lt;!&ndash; Инжектируем через конструктор &ndash;&gt;-->
+        <!--<property name="name" value="firstFirm"/>-->
+        <!--<property name="director" ref="director1"/>-->
+    <!--</bean>-->
+
+</beans>

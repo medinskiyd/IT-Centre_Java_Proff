@@ -1,0 +1,42 @@
+10
+
+dir
+0
+https://subversion.assembla.com/svn/proff13/trunk/dmitry_medinsky/src/main/java/week9/ClientServer/server
+https://subversion.assembla.com/svn/proff13
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b3ff1233-016a-4b25-a549-befdd0438e55
+
+JmsMessageListener.java
+file
+
+
+
+add
+
+ServerMain.java
+file
+
+
+
+add
+

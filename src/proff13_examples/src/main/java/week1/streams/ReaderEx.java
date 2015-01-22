@@ -1,0 +1,70 @@
+package week1.streams;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
+/**
+ * Created with IntelliJ IDEA.
+ * User: al1
+ * Date: 1/15/14
+ */
+public class ReaderEx {
+    public static void main(String[] args) throws IOException {
+        FileReader reader = null;
+        BufferedReader br = null;
+        String line = null;
+        try {
+            reader = new FileReader("text.txt");
+            br = new BufferedReader(reader);
+            int elem = 0;
+            while ((elem = reader.read()) > 0) {
+                System.out.print((char) elem);
+            }
+
+            while ((line = br.readLine()) != null) {
+                System.out.println(line);
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            if (reader != null) {
+                try {
+                    reader.close();
+                } catch (IOException e) {
+                }
+            }
+            if (br != null) {
+                try {
+                    br.close();
+                } catch (IOException e) {
+                }
+            }
+
+        }
+
+
+//        readFileToString();
+    }
+
+    private static String readFileToString() {
+        try (FileReader reader1 = new FileReader("text.txt");
+             BufferedReader br1 = new BufferedReader(reader1)
+        ) {
+            StringBuilder sb = new StringBuilder();
+            String line1;
+            while ((line1 = br1.readLine()) == null) {
+                sb.append(line1);
+            }
+            return sb.toString();
+        } catch (Exception e) {
+
+        } finally {
+
+        }
+        return null;
+    }
+
+
+}

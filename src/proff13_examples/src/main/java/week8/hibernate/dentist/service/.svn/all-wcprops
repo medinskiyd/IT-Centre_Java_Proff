@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/proff13/!svn/ver/237/trunk/proff13_examples/src/main/java/week8/hibernate/dentist/service
+END
+ClientService.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/proff13/!svn/ver/237/trunk/proff13_examples/src/main/java/week8/hibernate/dentist/service/ClientService.java
+END
+ClientServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/proff13/!svn/ver/237/trunk/proff13_examples/src/main/java/week8/hibernate/dentist/service/ClientServiceImpl.java
+END
+DoctorService.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/proff13/!svn/ver/237/trunk/proff13_examples/src/main/java/week8/hibernate/dentist/service/DoctorService.java
+END
+DoctorServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/proff13/!svn/ver/237/trunk/proff13_examples/src/main/java/week8/hibernate/dentist/service/DoctorServiceImpl.java
+END

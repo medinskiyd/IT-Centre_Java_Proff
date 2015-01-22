@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/proff13/!svn/ver/205/trunk/proff13_examples/src/main/java/week6/associate/dao
+END
+GenericDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/proff13/!svn/ver/180/trunk/proff13_examples/src/main/java/week6/associate/dao/GenericDao.java
+END
+GenericDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/proff13/!svn/ver/180/trunk/proff13_examples/src/main/java/week6/associate/dao/GenericDaoImpl.java
+END
+ClientHibernateDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/proff13/!svn/ver/200/trunk/proff13_examples/src/main/java/week6/associate/dao/ClientHibernateDaoImpl.java
+END
+UserHibernateDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/proff13/!svn/ver/180/trunk/proff13_examples/src/main/java/week6/associate/dao/UserHibernateDaoImpl.java
+END
+UserDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/proff13/!svn/ver/180/trunk/proff13_examples/src/main/java/week6/associate/dao/UserDao.java
+END
+VehicleDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/proff13/!svn/ver/205/trunk/proff13_examples/src/main/java/week6/associate/dao/VehicleDao.java
+END

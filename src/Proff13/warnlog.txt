@@ -1,0 +1,2 @@
+2014-03-21 20:49:28,925 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1b2380e: startup date [Fri Mar 21 20:49:28 EET 2014]; root of context hierarchy
+2014-03-21 20:49:29,446 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [week7/jms/chat/serverContext.xml]

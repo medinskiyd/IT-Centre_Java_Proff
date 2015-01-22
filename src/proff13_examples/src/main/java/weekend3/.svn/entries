@@ -1,0 +1,46 @@
+10
+
+dir
+397
+https://subversion.assembla.com/svn/proff13/trunk/proff13_examples/src/main/java/weekend3
+https://subversion.assembla.com/svn/proff13
+
+
+
+2014-03-12T17:25:31.711563Z
+205
+it-centre
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b3ff1233-016a-4b25-a549-befdd0438e55
+
+annotate
+dir
+
+association
+dir
+
+dantist
+dir
+
+dao
+dir
+
+hibernate
+dir
+
+jdbc
+dir
+
